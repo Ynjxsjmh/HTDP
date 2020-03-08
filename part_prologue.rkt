@@ -20,7 +20,7 @@
 (* 1 2 3 4 5 6 7 8 9 0)
 
 
-; text
+; strings
 
 (string-append "hello " "world")
 
@@ -30,7 +30,7 @@
 
 (string->number "42")
 
-; truths
+; Boolean values
 
 (and #true #true)
 (or #true #false)
